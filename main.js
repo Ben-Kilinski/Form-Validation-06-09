@@ -60,37 +60,38 @@
 // }
 
 //task 7 
-function valideForm(){
-    var validusername = username.value.length < 10;
-    var validemail = email.value.lastIndexOf(".com") == email.value.length - 4;
-    var validage = new Date().getFullYear() - +age.value.substr(0,4) >= 18;
-    var validcod = cod.value == checkCod.value;
+// function valideForm(){
+//     var validusername = username.value.length < 10;
+//     var validemail = email.value.lastIndexOf(".com") == email.value.length - 4;
+//     var validage = new Date().getFullYear() - +age.value.substr(0,4) >= 18;
+//     var validcod = cod.value == checkCod.value;
 
-    if (validusername && validemail && validage && validcod){
-        alert("Welcome!")
-        return true
-    }
-    else{
-        if(!validusername){
-            alert("name bigger than 10 characters")
-            username.style.border = "1px solid red"
+//     if (validusername && validemail && validage && validcod){
+//         alert("Welcome!")
+//         return true
+//     }
+//     else{
+//         if(!validusername){
+//             alert("name bigger than 10 characters")
+//             username.style.border = "1px solid red"
             
-        }
-        if(!validemail){
-            alert("The email dosen't ends with '.com'")
-            email.style.border = "1px solid red"
+//         }
+//         if(!validemail){
+//             alert("The email dosen't ends with '.com'")
+//             email.style.border = "1px solid red"
             
-        }
-        if(!validage){
-            alert("you're too young")
-            age.style.border = "1px solid red"
+//         }
+//         if(!validage){
+//             alert("you're too young")
+//             age.style.border = "1px solid red"
             
-        }
-        if(!validcod){
-            alert("key-numbers are differnts")
-            checkCod.style.border = "1px solid red"
+//         }
+//         if(!validcod){
+//             alert("key-numbers are differnts")
+//             checkCod.style.border = "1px solid red"
             
-        }
-    return false
-    } 
-}
+//         }
+//     return false
+//     } 
+// }
+
