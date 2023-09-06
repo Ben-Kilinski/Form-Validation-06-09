@@ -11,3 +11,14 @@ function t1(){
         
     }
 }
+
+//task 2
+function t2() {
+    if(myInput.value > mySecondInput.value){
+        alert ("first number is bigger")
+        return true
+    }
+    else {
+        return false
+    }
+}
